@@ -5,9 +5,5 @@ const listArray = [];
 
 addButton.addEventListener('click', ()=>{
     uL.innerHTML += `<li>${inputField.value}</li>`;
-    // listArray.push(inputField.value);
-    // for (const item of listArray) {
-    //     uL.innerHTML += `<li>${item}</li>`;
-    // }
     inputField.value = "";
 });
